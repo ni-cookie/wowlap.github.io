@@ -16,7 +16,7 @@ var arr = [
 	 'січня',
 ];
 
-$('.rf_title').text('Данi оновлено ' + date.getDate() + ' ' + arr[month-1] + ' 2021 о ' + date.getHours() + ':' + '' + date.getMinutes() + '');
+$('.rf_title').text('Данi оновлено ' + date.getDate() + ' ' + arr[month-1] + ' 2022 о ' + date.getHours() + ':' + '' + date.getMinutes() + '');
 
 $.fn.preload = function() {
     this.each(function(){
